@@ -295,7 +295,7 @@
 </section>
 			<section class="page__section page__section_6">
 	<!-- MAP -->
-	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A01ba151fce59d8045e5b258c3318195bf0dc700d97bed339306f951faddb64c6&amp;source=constructor" width="1280" height="555" frameborder="0" class="map"></iframe>
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A01ba151fce59d8045e5b258c3318195bf0dc700d97bed339306f951faddb64c6&amp;width=100%25&amp;height=555&amp;lang=ru_RU&amp;scroll=false"></script>
 	<!-- MAP -->
 	<div class="contacts-container container">
 		<div class="contacts-card">
@@ -317,9 +317,12 @@
 		</div>
 	</div>
 	<div class="arrow-contacts">
-		<img src="img/arrow_down.png" srcset="img/arrow_down@2x.png 2x" alt="Вверх">
-		<span>
+		<img src="img/arrow_down.png" class="none" srcset="img/arrow_down@2x.png 2x" alt="Вверх">
+		<span class="show-kard">
 			Посмотреть на карте
+		</span>
+		<span class="show-contacts">
+			Посмотреть контанкты
 		</span>
 	</div>
 
@@ -334,7 +337,7 @@
 					<img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="Юкас" >
 				</a>
 				<span>
-					2023 © Все права защищены111
+					2023 © Все права защищены
 				</span>
 			</div>
 			<div class="block-footer">
@@ -365,13 +368,18 @@
 			
 		</div>
 		<div class="arrow-up">
-			<a href="#">
-				<img src="img/arrow_footer.png" srcset="img/arrow_footer@2x.png 2x" alt="Вверх">
-			</a>
+			<!-- <a href="#" >
+				<img src="img/arrow_footer.png" class="menu__link" srcset="img/arrow_footer@2x.png 2x" alt="Вверх" data-goto=".page__section_1">
+			</a> -->
 		</div>
-		<div class="end">
+			
+		<!-- <div class="blockend1">
 
 		</div>
+		<div class="blockend2">
+
+		</div> -->
+		
 </footer>
 	</div>
 	<!--* Пдключение скриптов -->
